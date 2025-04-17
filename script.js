@@ -39,7 +39,7 @@ function drawChart(data) {
   svg.append("text")
     .attr("transform", "rotate(-90)")
     .attr("x", -height / 2)
-    .attr("y", 20)
+    .attr("y", 0)
     .attr("dy", "1em")
     .style("text-anchor", "middle")
     .style("font-size", "14px")
