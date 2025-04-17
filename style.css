@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+svg {
+  background-color: #f9f9f9;
+}
+
+.dot {
+  stroke: black;
+}
+
+.dot:hover {
+  stroke-width: 2px;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  background: white;
+  border: 1px solid black;
+  padding: 6px;
+  font-size: 12px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+#legend {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
